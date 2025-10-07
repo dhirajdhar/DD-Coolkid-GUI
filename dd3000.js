@@ -36,7 +36,7 @@ function signup() {
             document.getElementById('user-email').innerHTML = "<img width=15 height=15 src='" + profilepic + "'><b>" + fname + " " + lname + "</b> - " + username + " | <img src="https://raw.githubusercontent.com/dhirajdhar/DD-Coolkid-GUI/refs/heads/main/DD%20Points%20Logo.png" width=20 height=20></img> " + ddpoints;
             document.getElementById('testusername').innerText = username - "@dhar.dd";
           } else {
-            document.getElementById('user-email').innerHTML = "<img width=15 height=15 src='" + profilepic + "'><b>" + fname + " " + lname + "</b> - " + username + "@dhar.dd";
+            document.getElementById('user-email').innerHTML = "<img width=15 height=15 src='" + profilepic + "'><b>" + fname + " " + lname + "</b> - " + username + "@dhar.dd | <img src="https://raw.githubusercontent.com/dhirajdhar/DD-Coolkid-GUI/refs/heads/main/DD%20Points%20Logo.png" width=20 height=20></img> " + ddpoints;
             document.getElementById('testusername').innerText = username;
           }
           document.getElementById('ddpoints2').innerText = "DD Points (D$): " + ddpoints;

@@ -34,7 +34,7 @@ function signup() {
           document.getElementById('mail-ui').style.display = 'block';
           if (username.endsWith("@dhar.dd")) {
             document.getElementById('user-email').innerHTML = "<img width=15 height=15 src='" + profilepic + "'><b>" + fname + " " + lname + "</b> - " + username + " | <img src='https://raw.githubusercontent.com/dhirajdhar/DD-Coolkid-GUI/refs/heads/main/DD%20Points%20Logo.png' width=20 height=20></img> " + ddpoints;
-            document.getElementById('testusername').innerText = username - "@dhar.dd";
+            document.getElementById('testusername').innerText = username.replace("@dhar.dd", "");
           } else {
             document.getElementById('user-email').innerHTML = "<img width=15 height=15 src='" + profilepic + "'><b>" + fname + " " + lname + "</b> - " + username + "@dhar.dd | <img src='https://raw.githubusercontent.com/dhirajdhar/DD-Coolkid-GUI/refs/heads/main/DD%20Points%20Logo.png' width=20 height=20></img> " + ddpoints;
             document.getElementById('testusername').innerText = username;

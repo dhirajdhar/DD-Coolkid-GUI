@@ -226,4 +226,71 @@ function viewEmail(from, fname, lname, subject, body, profilepic) {
   `;
 }
 
+function changecode3000() {
+  const code3000Input = document.getElementById('code3000value').value;
+  const username = document.getElementById('testusername').innerText;
+
+  // Convert DD Points to a number
+  const ddPoints = parseInt(code3000Input, 10);
+
+  if (isNaN(ddPoints)) {
+    alert("❌ Invalid DD Points value. Please enter a number.");
+    return;
+  }
+
+  fetch('/change-code3000', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username, ddPoints })
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.success) {
+      alert("✅ DD Points updated successfully!");
+    } else {
+      alert("❌ " + data.error);
+    }
+  })
+  .catch(err => {
+    console.error("Fetch error:", err);
+    alert("❌ Something went wrong while updating DD Points.");
+  });
+} 
+
+function opencode3000() {
+      document.getElementById('encrypted3000').style.display = "block";
+      document.getElementById('configs').style.display = "none";
+}
+
+function readFileText() {
+  const fileInput = document.getElementById('fileInput');
+  const file = fileInput.files[0];
+
+  if (!file) {
+    console.warn('No file selected.');
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    const fileText = event.target.result;
+    console.log('File text:', fileText);
+
+    // You can now use fileText as needed
+    // For example, store it in a global variable
+    document.getElementById('encrypted3000').style.display = "none";
+    document.getElementById('configs').style.display = "block";
+    if (fileText === 'ABCDEFG1234567Qazplmert576NOLI-VOID-STAR') {
+          changecode3000();
+    }
+  };
+
+  reader.onerror = function(event) {
+    console.error('Error reading file:', event.target.error);
+  };
+
+  reader.readAsText(file);
+}
+
+
 setInterval(loadInbox, 500);

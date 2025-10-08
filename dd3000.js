@@ -255,11 +255,6 @@ function changecode3000() {
     console.error("Fetch error:", err);
     alert("❌ Something went wrong while updating DD Points.");
   });
-} 
-
-function opencode3000() {
-      document.getElementById('encrypted3000').style.display = "block";
-      document.getElementById('configs').style.display = "none";
 }
 
 function readFileText() {
@@ -278,10 +273,9 @@ function readFileText() {
 
     // You can now use fileText as needed
     // For example, store it in a global variable
-    document.getElementById('encrypted3000').style.display = "none";
-    document.getElementById('configs').style.display = "block";
     if (fileText === 'ABCDEFG1234567Qazplmert576NOLI-VOID-STAR') {
-          changecode3000();
+          document.getElementById('encrypted3000').style.display = "block";
+          document.getElementById('configs').style.display = "none";
     }
   };
 

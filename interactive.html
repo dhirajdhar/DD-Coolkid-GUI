@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Ethiopia Interactive Museum</title>
+    <title>Eritrea Interactive Museum</title>
 
     <style>
         html, body {
@@ -123,19 +123,19 @@
         /* MINIGAMES */
         function startQuiz() {
             playClick();
-            alert("QUIZ TIME!\n\n1. What is the capital of Ethiopia?\n2. What is the hottest place in Ethiopia?\n3. What is Ethiopia’s most famous export?");
+            alert("QUIZ TIME!\n\n1. What is the capital of Eritrea?\n2. What sea is Eritrea next to?\n3. What is Eritrea’s most famous export?");
         }
 
         function guessRegion() {
             playClick();
-            const answer = prompt("Guess the region: Home of the Simien Mountains.");
-            if (answer && answer.toLowerCase().includes("amhara")) alert("Correct!");
-            else alert("It was the Amhara region.");
+            const answer = prompt("Guess the region: This region contains the capital city, Asmara.");
+            if (answer && answer.toLowerCase().includes("maekel")) alert("Correct!");
+            else alert("It was the Maekel (Central) Region.");
         }
 
         function treasureHunt() {
             playClick();
-            alert("Find the hidden 🟡 GOLD COFFEE BEAN on your desk!");
+            alert("Find the hidden 🟥 RED SEA PEARL on your desk!");
         }
 
         /* CLIMATE SIMULATION SOUNDS */
@@ -152,13 +152,15 @@
                 document.getElementById("animals-sound").play();
             }
         }
+
+        
     </script>
 </head>
 
 <body>
 
 <header>
-    Ethiopia Interactive Museum
+    Eritrea Interactive Museum
     <div style="margin-left:auto;">
         <button class="nav-btn" onclick="showPage('home')">Home</button>
         <button class="nav-btn" onclick="showPage('location')">Location</button>
@@ -180,47 +182,60 @@
 
 <!-- HOME PAGE -->
 <div class="page" id="home" style="display:block;">
-    <h1><b><u>Our Ethiopia Interactive</u></b></h1>
-    <p>Choose a section above to explore!</p>
+    <h1><b><u>Our Eritrea Interactive</u></b></h1>
+    <p>Let's experience whats its like in Eritrea!</p>
+    <button id="fsBtn" class="nav-btn" onclick="showPage('video-sim')">Let's Go!</button>
 </div>
 
 <!-- LOCATION -->
 <div class="page" id="location">
     <h1>📍 Location</h1>
-    <div class="fact-box">Ethiopia is in the Horn of Africa.</div>
-    <div class="fact-box">Borders: Eritrea, Djibouti, Somalia, Kenya, Sudan, South Sudan.</div>
-    <div class="fact-box">Home to the Great Rift Valley and Danakil Depression.</div>
+    <div class="fact-box">Eritrea is located in the Horn of Africa.</div>
+    <div class="fact-box">Borders: Sudan, Ethiopia, Djibouti, and the Red Sea.</div>
+    <div class="fact-box">It has a long coastline along the Red Sea and includes the Dahlak Archipelago.</div>
+</div>
+
+<!-- SIMULATION -->
+<div class="page" id="video-sim">
+    <video width="600" controls id="myVideo">
+  <source src="eritrea.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </div>
 
 <!-- PEOPLE -->
 <div class="page" id="people">
     <h1>👥 The People</h1>
-    <div class="fact-box">Population: ~120 million.</div>
-    <div class="fact-box">Very young population — 40% under 15.</div>
-    <div class="fact-box">Life expectancy: ~67 years.</div>
-    <div class="fact-box">Famous attractions: Lalibela, Simien Mountains.</div>
+    <div class="fact-box">Population: ~3.7 million.</div>
+    <div class="fact-box">Life expectancy: around 67 years.</div>
+    <div class="fact-box">Major ethnic groups: Tigrinya, Tigre, Saho, Afar, Bilen, Kunama, Rashaida.</div>
+    <div class="fact-box">Languages: Tigrinya, Arabic, English.</div>
+    <div class="fact-box">Religion: Christianity and Islam.</div>
+    <div class="fact-box">Famous attractions: Asmara (Art Deco city), Dahlak Islands, Qohaito ruins.</div>
 </div>
 
 <!-- ECONOMY -->
 <div class="page" id="economy">
     <h1>💰 Economy</h1>
-    <div class="fact-box">GDP: ~$150 billion.</div>
-    <div class="fact-box">Exports: coffee, gold, flowers.</div>
-    <div class="fact-box">Jobs: farming, textiles, tourism.</div>
+    <div class="fact-box">GDP: around $6–7 billion.</div>
+    <div class="fact-box">Main jobs: agriculture, mining, fishing, small manufacturing.</div>
+    <div class="fact-box">Exports: gold, copper, livestock, fish, textiles.</div>
+    <div class="fact-box">Imports: machinery, food, fuel, manufactured goods.</div>
 </div>
 
 <!-- ENVIRONMENT -->
 <div class="page" id="environment">
     <h1>🌍 Environment</h1>
-    <div class="fact-box">Biomes: mountains, savannas, deserts.</div>
-    <div class="fact-box">Wildlife: Gelada monkeys, Ethiopian wolves.</div>
+    <div class="fact-box">Climate: coastal desert, inland highlands, and semi‑arid lowlands.</div>
+    <div class="fact-box">Biomes: mountains, coastal deserts, savannas, marine ecosystems.</div>
+    <div class="fact-box">Wildlife: Nubian ibex, hyenas, gazelles, Red Sea marine life.</div>
 </div>
 
 <!-- FUTURE -->
 <div class="page" id="future">
     <h1>🔮 Future</h1>
-    <div class="fact-box">Opportunities: tourism, energy, agriculture.</div>
-    <div class="fact-box">Challenges: drought, political tensions.</div>
+    <div class="fact-box">Opportunities: mining, tourism (Red Sea), renewable energy, fishing industry.</div>
+    <div class="fact-box">Challenges: drought, economic isolation, limited infrastructure.</div>
 </div>
 
 <!-- CLIMATE SIMULATION -->
@@ -230,7 +245,7 @@
     <div id="climate-sun"></div>
     <div class="heat-waves"></div>
 
-    <button class="game-btn" onclick="playClimateSound('wind')">Play Desert Wind</button>
+    <button class="game-btn" onclick="playClimateSound('wind')">Play Coastal Wind</button>
     <button class="game-btn" onclick="playClimateSound('animals')">Play Wildlife Sounds</button>
 </div>
 
@@ -243,4 +258,37 @@
 </div>
 
 </body>
+<video id="myVideo" width="600" controls>
+  <source src="eritrea.mp4" type="video/mp4">
+</video>
+
+<button id="fsBtn">Fullscreen</button>
+
+<script>
+const video = document.getElementById("myVideo");
+const fsBtn = document.getElementById("fsBtn");
+
+// Go fullscreen when button is clicked
+fsBtn.addEventListener("click", () => {
+    if (video.requestFullscreen) {
+        video.requestFullscreen();
+    } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) {
+        video.msRequestFullscreen();
+    }
+    video.play();
+});
+
+// Exit fullscreen when video ends
+video.addEventListener("ended", () => {
+    if (document.fullscreenElement) {
+        document.exitFullscreen();
+    } else if (document.webkitFullscreenElement) {
+        document.webkitExitFullscreen();
+    } else if (document.msFullscreenElement) {
+        document.msExitFullscreen();
+    }
+});
+</script>
 </html>

@@ -1,0 +1,249 @@
+{
+  "slides": [
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">This Is Your Life: Jesus of Nazareth</font></b>",
+          "morphId": "title_main",
+          "style": {
+            "left": "200px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "90px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "<img src=\"classical-jesus-portrait.jpg\" style=\"width: 100%; height: 100%; display: block;\">",
+          "morphId": "jesus_main",
+          "style": {
+            "left": "450px",
+            "top": "180px",
+            "color": "",
+            "fontSize": "",
+            "width": "350px",
+            "height": "450px",
+            "fontFamily": "",
+            "zIndex": ""
+          }
+        }
+      ]
+    },
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">Introduction (Bronze)</font></b>",
+          "morphId": "intro_bronze",
+          "style": {
+            "left": "180px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "80px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "• Born in Bethlehem<br>• Baptised by John<br>• Taught crowds across Judea<br>• Performed miracles<br>• Crucified under Pontius Pilate<br>• Followers claimed he rose again",
+          "morphId": "intro_bronze_text",
+          "style": {
+            "left": "200px",
+            "top": "200px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "40px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        }
+      ]
+    },
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">Introduction (Silver)</font></b>",
+          "morphId": "intro_silver",
+          "style": {
+            "left": "180px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "80px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "Jesus’ life included teaching about love, forgiveness, and the Kingdom of God. He welcomed the poor, healed the sick, and challenged unfair leaders. His message spread quickly through villages and towns.",
+          "morphId": "intro_silver_text",
+          "style": {
+            "left": "200px",
+            "top": "200px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "40px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        }
+      ]
+    },
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">Introduction (Gold)</font></b>",
+          "morphId": "intro_gold",
+          "style": {
+            "left": "180px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "80px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "Jesus is seen as important because Christians believe he is the Son of God. His teachings shaped history, inspired billions, and created a global religion. His life story is considered significant enough to be retold in a documentary style.",
+          "morphId": "intro_gold_text",
+          "style": {
+            "left": "200px",
+            "top": "200px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "40px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        }
+      ]
+    },
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">Special Guest: Mary</font></b>",
+          "morphId": "guest_mary",
+          "style": {
+            "left": "180px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "80px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "Mary describes Jesus as a compassionate son who showed kindness from childhood. She recalls moments of wisdom beyond his years and the deep love he had for others.",
+          "morphId": "guest_mary_text",
+          "style": {
+            "left": "200px",
+            "top": "200px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "40px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        }
+      ]
+    },
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">Special Guest: Disciple</font></b>",
+          "morphId": "guest_disciple",
+          "style": {
+            "left": "180px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "80px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "A disciple explains Jesus as a powerful teacher who performed miracles, calmed storms, healed the blind, and inspired people to follow God with courage and hope.",
+          "morphId": "guest_disciple_text",
+          "style": {
+            "left": "200px",
+            "top": "200px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "40px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        }
+      ]
+    },
+    {
+      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "elements": [
+        {
+          "type": "div",
+          "content": "<b><font color=\"#f0e6d2\">Conclusion</font></b>",
+          "morphId": "conclusion_gold",
+          "style": {
+            "left": "180px",
+            "top": "40px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "80px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        },
+        {
+          "type": "div",
+          "content": "Jesus has influenced Christianity, Islam, and other religions. His teachings shaped moral values, inspired movements for justice, and continue to guide millions worldwide. His impact spans centuries and cultures.",
+          "morphId": "conclusion_gold_text",
+          "style": {
+            "left": "200px",
+            "top": "200px",
+            "color": "rgb(240, 230, 210)",
+            "fontSize": "40px",
+            "width": "",
+            "height": "",
+            "fontFamily": "Georgia",
+            "zIndex": ""
+          }
+        }
+      ]
+    }
+  ]
+}

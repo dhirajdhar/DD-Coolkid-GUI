@@ -1,7 +1,7 @@
 {
   "slides": [
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "background": "url(\"dark-parchment-texture.jpg\") center center / cover",
+      "background": "url(\"https://github.com/dhirajdhar/DD-Coolkid-GUI/blob/main/darkparchment.jpg?raw=true\") center center / cover",
       "elements": [
         {
           "type": "div",
